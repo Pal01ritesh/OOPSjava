@@ -1,0 +1,40 @@
+
+
+-> a constructor defines what will happen when a object is created
+
+-> constructor is a function which have some argumnets, that runs when you create a new object and it alloctes some variables
+
+FINAL
+
+-> final keyword must be declared while it is being initialise
+-> final keyword do only works with the primitive data types
+
+-> in case of non primitive datatypes you cannot reassign the variables
+
+final oop1.Intro.Student name = new oop1.Intro.Student();
+oop1.Intro.Student one = name                    -> this is not allowed
+
+
+
+
+STATIC            ---->    do not depend upon objects
+
+the static keyword in java is used to declare the attributes or classes in java which are not dependent on any of the individual
+objects.
+
+static -> this static key word can be accessed even if we do not declare or initialise a class or object;
+
+
+------>        https://youtu.be/_Ya6CN13t8k?list=PL9gnSGHSqcno1G3XjUbwzXHL8_EttOuKk&t=2039            <--------
+to access the class we have to first create an object of the class.
+that's why to access the functions of the main class we have to put static before the main funtion.
+
+
+a static method can only access static data, it cannot access a non static data.
+static methods or classes are not dependent on objects
+
+
+
+SINGLETON
+
+the classes in which we are required to create only one object
